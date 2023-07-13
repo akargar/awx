@@ -3,4 +3,5 @@
   become: yes  
 
   tasks:
-   - ping
+   - name: test connection
+     ansible.builtin.ping:
